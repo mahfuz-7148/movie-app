@@ -79,7 +79,6 @@ export const MovieCard = ({movie}) => {
               className="w-full bg-linear-to-r from-primary to-yellow-400 hover:from-yellow-400 hover:to-primary rounded-lg py-3 px-5 flex items-center justify-center gap-2 text-black font-bold text-sm shadow-lg hover:shadow-xl hover:shadow-primary/50 transition-all duration-300 hover:scale-105 active:scale-95 mt-auto"
               onClick={(e) => handleAddToCart(e, movie)}
             >
-              <img src="/src/assets/tag.svg" alt="" className="w-5 h-5" />
               <span>Add to Cart</span>
             </button>
           </figcaption>
